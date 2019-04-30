@@ -10090,7 +10090,7 @@ function isInDomains(domain_dict, host) {
 	if (suffix=="cn"||suffix=="nd"||suffix=="localhost"||
 	    suffix=="local"||suffix=="dev"||suffix=="test"||
 	    suffix=="onion"||suffix=="exit"||suffix=="bitnet"||
-	    suffix=="uucp"||suffix=="example"||suffix=="invalid") {
+	    suffix=="uucp"||suffix=="example"||suffix=="invalid"||suffix=="co") {
 		return true;
 	}
 	var domains = domain_dict[suffix];
